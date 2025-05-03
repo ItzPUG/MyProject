@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="77c9f2f00b654dba950eeeecad163a54" Name="Diagram1" ZoomLevel="93">
+        <EntityTypeShape EntityType="QuanLyRapPhimModel.BoPhanBanVe" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyRapPhimModel.HoaDon" Width="1.5" PointX="5.25" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyRapPhimModel.KhachHang" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyRapPhimModel.Phim" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyRapPhimModel.SuatChieu" Width="1.5" PointX="3" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyRapPhimModel.sysdiagram" Width="1.5" PointX="7.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyRapPhimModel.TaiKhoan" Width="1.5" PointX="7.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyRapPhimModel.ThanhToan" Width="1.5" PointX="7.5" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyRapPhimModel.Ve" Width="1.5" PointX="5.25" PointY="7.875" IsExpanded="true" />
+        <AssociationConnector Association="QuanLyRapPhimModel.FK_HoaDon_BoPhanBanVe" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyRapPhimModel.FK_ThanhToan_BoPhanBanVe" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyRapPhimModel.FK_HoaDon_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyRapPhimModel.FK_KhachHang_Phim" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyRapPhimModel.FK_Ve_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyRapPhimModel.FK_SuatChieu_Phim" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyRapPhimModel.FK_Ve_Phim" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyRapPhimModel.FK_Ve_SuatChieu" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyRapPhimModel.FK_ThanhToan_Ve" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
